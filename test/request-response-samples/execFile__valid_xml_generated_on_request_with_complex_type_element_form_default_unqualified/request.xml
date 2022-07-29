@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+<soap:Header/>
+<soap:Body>
+<ns1:execFileParams xmlns:ns1="urn:FileExecutor">
+			<fileName>PSTN</fileName>
+			<arguments>0</arguments>
+			<base64EncodedStdIn>null</base64EncodedStdIn>
+			<startDetached>true</startDetached>
+</ns1:execFileParams>
+</soap:Body>
+</soap:Envelope>

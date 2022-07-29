@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Header/><soap:Body>
+<ns1:DummyRequest xmlns:ns1="http://www.Dummy.com/Name/Types">
+<ns1:DummyXML>
+<myObject attr='myAttr'></myObject>
+</ns1:DummyXML>
+</ns1:DummyRequest>
+</soap:Body>
+</soap:Envelope>

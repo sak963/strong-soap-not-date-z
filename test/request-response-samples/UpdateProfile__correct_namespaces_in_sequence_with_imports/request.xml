@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Header/>
+<soap:Body>
+		<ns1:UpdateProfileRequest xmlns:ns1="http://www.bigdatacollect.or/Name/Types">
+			<ns1:Profile>
+				<ns1:IDs>
+					<ns2:UniqueID xmlns:ns2="http://www.bigdatacollect.or/Common/Types"  source="TESTSOURCE">100</ns2:UniqueID>
+				</ns1:IDs>
+				<ns1:Phones>
+					<ns1:NamePhone primary="true">
+						<ns1:IDs>
+							<ns2:UniqueID xmlns:ns2="http://www.bigdatacollect.or/Common/Types"  source="TEST">1</ns2:UniqueID>
+						</ns1:IDs>
+					</ns1:NamePhone>
+					<ns1:NamePhone primary="false">
+						<ns1:IDs>
+							<ns2:UniqueID xmlns:ns2="http://www.bigdatacollect.or/Common/Types"  source="TEST">2</ns2:UniqueID>
+						</ns1:IDs>
+					</ns1:NamePhone>
+				</ns1:Phones>
+			</ns1:Profile>
+		</ns1:UpdateProfileRequest>
+</soap:Body>
+</soap:Envelope>

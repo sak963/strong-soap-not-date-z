@@ -1,0 +1,47 @@
+{
+  "sessionId": "sessionId",
+  "calls": {
+    "item": [
+      {
+        "$attributes": {
+          "$xsiType": {
+            "type": "Array",
+            "xmlns": "http://schemas.xmlsoap.org/soap/encoding/"
+          }
+        },
+        "item": [
+          "product_stock.update",
+          {
+            "$attributes": {
+              "$xsiType": {
+                "type": "Array",
+                "xmlns": "http://schemas.xmlsoap.org/soap/encoding/"
+              }
+            },
+            "item": [
+              "HTC Touch Diamond",
+              {
+                "$attributes": {
+                  "$xsiType": {
+                    "type": "Map",
+                    "xmlns": "http://xml.apache.org/xml-soap"
+                  }
+                },
+                "item": [
+                  {
+                    "key": "qty",
+                    "value": "9199"
+                  },
+                  {
+                    "key": "is_in_stock",
+                    "value": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

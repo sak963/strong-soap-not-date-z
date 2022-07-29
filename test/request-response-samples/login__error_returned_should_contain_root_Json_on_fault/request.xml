@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Header/>
+<soap:Body>
+		<ns1:login xmlns:ns1="urn:messages_2011_1.platform.webservices.netsuite.com">
+			<ns1:passport>
+				<ns2:email xmlns:ns2="urn:core_2011_1.platform.webservices.netsuite.com">em</ns2:email>
+				<ns2:password xmlns:ns2="urn:core_2011_1.platform.webservices.netsuite.com">pwd</ns2:password>
+				<ns2:account xmlns:ns2="urn:core_2011_1.platform.webservices.netsuite.com">acc</ns2:account>
+			</ns1:passport>
+		</ns1:login>
+</soap:Body>
+</soap:Envelope>

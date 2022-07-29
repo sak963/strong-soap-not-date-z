@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Header/>
+<soap:Body>
+		<ns1:GetItemInformation xmlns:ns1="SAMPLE">
+			<ns1:Items>
+				<ns1:Item>
+					<ns1:ItemNumber>1234</ns1:ItemNumber>
+					<ns1:RequestedQuantity>
+						<ns1:Value>1.00</ns1:Value>
+					</ns1:RequestedQuantity>
+				</ns1:Item>
+			</ns1:Items>
+		</ns1:GetItemInformation>
+</soap:Body>
+</soap:Envelope>

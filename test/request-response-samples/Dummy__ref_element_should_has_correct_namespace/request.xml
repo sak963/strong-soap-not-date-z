@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soap:Envelope
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header/>
+    <soap:Body>
+        <ns1:DummyRequest
+            xmlns:ns1="http://www.Dummy.com">
+            <ns2:Order
+                xmlns:ns2="http://www.Dummy.com/Common">
+                <Id>1</Id>
+                <Name>foo</Name>
+            </ns2:Order>
+        </ns1:DummyRequest>
+    </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,20 @@
+{
+  "writeResponse": {
+    "status": {
+      "$attributes": {
+        "isSuccess": "true"
+      }
+    },
+    "baseRef": {
+      "$attributes": {
+        "internalId": "42",
+        "externalId": "Alex Dniprovskyy",
+        "type": "contact",
+        "$xsiType": {
+          "type": "RecordRef",
+          "xmlns": "urn:core_2013_2.platform.webservices.netsuite.com"
+        }
+      }
+    }
+  }
+}

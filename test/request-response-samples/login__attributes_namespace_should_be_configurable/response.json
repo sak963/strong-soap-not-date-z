@@ -1,0 +1,39 @@
+{
+  "sessionResponse":{
+    "status":{
+      "$thisIsAttributesKey":{
+        "isSuccess":"true"
+       }
+    },
+    "userId":{
+      "$thisIsAttributesKey":{
+        "internalId":"1645"
+       },
+       "name":"SCPlus Dev"
+    },
+    "wsRoleList":{
+      "wsRole":[{
+        "role":{
+          "$thisIsAttributesKey":{
+            "internalId":"2"
+           },
+           "name":"Administrator"
+         },
+         "isDefault":false,
+         "isInactive":false,
+         "isLoggedInRole":true
+      },
+      {
+        "role":{
+          "$thisIsAttributesKey":{
+            "internalId":"3"
+           },
+           "name":"User1"
+         },
+         "isDefault":false,
+         "isInactive":false,
+         "isLoggedInRole":true
+      }]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "DummyRequest": {
+    "DummyField1": "Humpty",
+    "DummyFilter": {
+      "DummyStringFilter": "Dumpty"
+    },
+    "DummyAccount": {
+      "DummyName": "Dummy",
+      "DummyPassword": "1234"
+    }
+  }
+}

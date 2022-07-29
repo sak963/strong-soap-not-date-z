@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Header/>
+<soap:Body>
+		<ns1:Login xmlns:ns1="urn:webservice-electrasoft-ru">
+			<UserAlias>test</UserAlias>
+			<Password>testik</Password>
+		</ns1:Login>
+</soap:Body>
+</soap:Envelope>

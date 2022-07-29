@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Header/>
+<soap:Body>
+    <ns1:TestMessage xmlns:ns1="http://example.com/testservice.xsd">
+      <message><![CDATA[Hello World! & Hello Me!]]></message>
+    </ns1:TestMessage>
+</soap:Body>
+</soap:Envelope>

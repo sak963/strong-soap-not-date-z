@@ -1,0 +1,35 @@
+<soapenv:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Header>
+        <platformMsgs:documentInfo xmlns:platformMsgs="urn:messages_2011_1.platform.webservices.netsuite.com">
+            <platformMsgs:nsId>WEBSERVICES_TSTDRV1081821_022620141871665705141955926_219a90</platformMsgs:nsId>
+        </platformMsgs:documentInfo>
+    </soapenv:Header>
+    <soapenv:Body>
+        <loginResponse xmlns="urn:messages_2011_1.platform.webservices.netsuite.com">
+            <sessionResponse>
+                <ns2:status isSuccess="true" xmlns:ns2="urn:core_2011_1.platform.webservices.netsuite.com"/>
+                <userId internalId="1645" xmlns:ns2="urn:core_2011_1.platform.webservices.netsuite.com">
+                    <ns2:name>SCPlus Dev</ns2:name>
+                </userId>
+                <ns2:wsRoleList xmlns:ns2="urn:core_2011_1.platform.webservices.netsuite.com">
+                    <ns2:wsRole>
+                        <ns2:role internalId="2">
+                            <ns2:name>Administrator</ns2:name>
+                        </ns2:role>
+                        <ns2:isDefault>false</ns2:isDefault>
+                        <ns2:isInactive>false</ns2:isInactive>
+                        <ns2:isLoggedInRole>true</ns2:isLoggedInRole>
+                    </ns2:wsRole>
+                    <ns2:wsRole>
+                        <ns2:role internalId="3">
+                            <ns2:name>User1</ns2:name>
+                        </ns2:role>
+                        <ns2:isDefault>false</ns2:isDefault>
+                        <ns2:isInactive>false</ns2:isInactive>
+                        <ns2:isLoggedInRole>true</ns2:isLoggedInRole>
+                    </ns2:wsRole>
+                </ns2:wsRoleList>
+            </sessionResponse>
+        </loginResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

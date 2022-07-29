@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+<soap:Header/>
+<soap:Body>
+<ns1:GetAccountXml xmlns:ns1="#Foo">
+<ns1:ResourceID>234</ns1:ResourceID>
+<ns1:ResourceType>foo</ns1:ResourceType>
+<ns1:IDType>more foo</ns1:IDType>
+<ns1:TreeID>43</ns1:TreeID>
+    <ns1:PrivateLabelID>34</ns1:PrivateLabelID>
+</ns1:GetAccountXml>
+</soap:Body>
+</soap:Envelope>

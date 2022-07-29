@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header/>
+  <soap:Body>
+    <ns1:addPets xmlns:ns1="http://tempuri.org/">
+        <pet>
+          <Name>Max</Name>
+        </pet>
+        <pet>
+          <Name>dillon</Name>
+        </pet>
+    </ns1:addPets>
+  </soap:Body>
+</soap:Envelope>
