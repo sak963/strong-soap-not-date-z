@@ -150,9 +150,9 @@ class XMLHandler {
       if (val == null) {
         if (descriptor.isNillable) {
           // Set xsi:nil = true
-          declareNamespace(nsContext, element, 'xsi', helper.namespaces.xsi);
+          //declareNamespace(nsContext, element, 'xsi', helper.namespaces.xsi);
           if (typeof element.attribute === 'function') {
-            element.attribute('xsi:nil', true);
+            //element.attribute('xsi:nil', true);
           }
         }
       }
